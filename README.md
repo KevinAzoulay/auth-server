@@ -9,6 +9,7 @@ To use it you need to :
 3) The-Server/Models/UserBL is where all the Crud function are
 4) The Login / Register strategy are inside the route located at ./Routes/Usersroutes
       It use Config/Passport that use lib/utils to generate JWT and Crypto to hash and salt the password.
-      
+5) Use GenerateKeys.js in the console to generate Public Key and Private Key to Secure the Auth process and attach it to JWT: node GenerateKeys.js
+
 Client Side is coming soon
   
